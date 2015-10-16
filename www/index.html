@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Monacanoid</title>
+    <meta name="viewport" content="target-densitydpi=device-dpi,width=320,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="components/loader.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/ncmb.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/ncmbController.js"></script>
+</head>
+<body>
+    <div id="mask" class="mask"></div>
+    <div id="userEditWrapper" class="userEditWrapper">
+        <form id="userEdit">
+            <label for="name">プレイヤー名</label><br />
+            <input type="text" id="name" value="" class="text-input" /><br />
+            <input type="button" id="submit" class="button" value="送信" />
+        </form>
+    </div>
+    <div id="ranking" class="ranking">
+        <h2>ランキング</h2>
+        <ul id="rankingTable" class="list list--inset rankingTable">
+        </ul>
+        <ons-button class="login-button" id="closeRanking">閉じる</ons-button>
+    </div>
+</body>
+</html>
