@@ -10,4 +10,10 @@ Monacaとニフティクラウド mobile backend(mBaaS)を組み合わせ、サ�
 ＜チュートリアル公開後に追記予定>
 
 ## 使い方
-Monacaに直接インポートしてお使いいただけます。
+1. [ニフティクラウド mobile backend]および[Monaca]に登録します。
+1. 本リポジトリをzip形式でダウンロード後、Monacaのプロジェクトインポートを利用してインポートします。
+1. mobile backendにて新規アプリを作成します。
+1. 生成されたアプリケーションキーとクライアントキーを、 www/js/ncmbController.js に転記します。
+
+## 使用SDK
+- ニフティクラウド mobile backend JavaScript SDK v2.0
