@@ -209,7 +209,7 @@ var BB = {
         BB.addPaddle();
 
         var resetLabel = new PIXI.Text("RESET", {font: "24px/1.2 vt", fill: "red"});
-        resetLabel.position.x = 18;
+        resetLabel.position.x = BB.renderer.width/2 - 60;
         resetLabel.position.y = BB.renderer.height - 52;
         BB.stage.addChild(resetLabel);
         resetLabel.buttonMode = true;
@@ -222,7 +222,7 @@ var BB = {
         }, 1000, resetLabel);
 
         var rankingLabel = new PIXI.Text("RANKING", {font: "24px/1.2 vt", fill: "red"});
-        rankingLabel.position.x = 80;
+        rankingLabel.position.x = BB.renderer.width/2 + 30;
         rankingLabel.position.y = BB.renderer.height - 52;
         BB.stage.addChild(rankingLabel);
         rankingLabel.buttonMode = true;

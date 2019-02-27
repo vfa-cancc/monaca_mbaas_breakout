@@ -12389,7 +12389,7 @@ function ensureSafeMemberName(name, fullExpression) {
 }
 
 function ensureSafeObject(obj, fullExpression) {
-  // nifty check if obj is Function that is fast and works across iframes and other contexts
+  // nifcloud check if obj is Function that is fast and works across iframes and other contexts
   if (obj) {
     if (obj.constructor === obj) {
       throw $parseMinErr('isecfn',
